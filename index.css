@@ -8,13 +8,19 @@ nav {
     border: 3px solid rgb(235, 190, 190);
   }
   
-  /* Website title styles */
+/* fonts */
+body{
+    font-family: 'Oswald', sans-serif;
+}
+
+
+/* Website title styles */
   .website-title {
     font-size: 1.5em;
     font-weight: bold;
   }
   
-  /* Navigation links styles */
+/* Navigation links styles */
   .nav-links {
     list-style: none;
     display: flex;
@@ -44,7 +50,7 @@ nav {
     background-color: #f7f7f7;
   }
   
-  /* Empty div styles */
+/* Empty div styles */
   .empty-div {
     flex: 1; 
     display: flex; 
@@ -55,7 +61,7 @@ nav {
   }
 
   
-  /* Image styles */
+/* Image styles */
   .image {
     max-width: 50%; 
     height: auto;

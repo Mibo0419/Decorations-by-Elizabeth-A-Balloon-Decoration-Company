@@ -81,3 +81,12 @@ body{
     padding: 10px 20px;
     border-color: white;
   }
+
+.pink-button a{
+    text-decoration: none;
+    color: white;
+}
+
+.pink-button:visited{
+    color: inherit;
+}

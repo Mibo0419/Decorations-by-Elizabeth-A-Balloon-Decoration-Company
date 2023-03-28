@@ -5,7 +5,7 @@ nav {
     background-color: rgb(255, 255, 255);
     color: rgb(235, 190, 190);
     padding: 10px;
-    border: 3px solid gold;
+    border: 3px solid rgb(235, 190, 190);
   }
   
   /* Website title styles */
@@ -34,4 +34,44 @@ nav {
   .nav-link a:hover {
     text-decoration: underline;
     color: rgb(228, 179, 179);
+  }
+
+
+/* Flexbox container styles */
+.img-div-container {
+    display: flex;
+    align-items: center;
+    background-color: #f7f7f7;
+  }
+  
+  /* Empty div styles */
+  .empty-div {
+    flex: 1; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    flex-direction: column; 
+    padding: 10px 10px 10px 10px;
+  }
+
+  
+  /* Image styles */
+  .image {
+    max-width: 50%; 
+    height: auto;
+    width: 50%;
+  }
+
+.img-div-container h2,
+.img-div-container p {
+  text-align: center;
+}
+
+/* pink button */
+.pink-button {
+    background-color: rgb(235, 190, 190);
+    color: white;
+    border-radius: 5px;
+    padding: 10px 20px;
+    border-color: white;
   }

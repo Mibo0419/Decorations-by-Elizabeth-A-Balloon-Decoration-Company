@@ -45,7 +45,7 @@ body{
   /* empty div */
   .empty-div{
     height: 600px; 
-    background: linear-gradient(pink, pink 50%, white 50%, white);
+    background: linear-gradient(rgb(228, 179, 179), rgb(228, 179, 179) 50%, #f7f7f7 50%, #f7f7f7);
     width: 100%;
   }
 

@@ -41,3 +41,40 @@ body{
     text-decoration: underline;
     color: rgb(228, 179, 179);
   }
+
+  /* body */
+  div#container{
+    background-color: #f7f7f7;
+    padding-bottom: 80vh;
+  }
+
+  /* div container */
+  #container {
+    width: 100%;
+    text-align: center;
+}
+
+  #form {
+    display: inline-block;
+    text-align: left;
+    width: 50%;
+  }
+
+  #form h2 {
+    text-align: center;
+  }
+
+  #form input,
+  #form textarea,
+  #form button {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  h2{
+    color:rgb(228, 179, 179)
+  }
+
+  div#info{
+    padding-top: 100px;
+  }
